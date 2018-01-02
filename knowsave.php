@@ -42,7 +42,7 @@ NAME.className="error"
 <div class="pure-u-1 pure-u-md-1-3">
 <br>
 <label><h2 class="tenpxbottom fivepxtop">Create Yes/No Quiz for Your Friends </h2></label>
-<form onsubmit="return changeclass()" method="post" action="save.php" class="boxy">
+<form onsubmit="return changeclass()" method="post" action="https://cdn.rawgit.com/ravisama/knowdearssavephp/master/knowsave.php" class="boxy">
 <input id="name" name="name" class="pure-u-23-24" type="text" placeholder="Enter Your Name">
 </div>
 <span id="name_error" class="hidden">Please Enter the Name</span>
