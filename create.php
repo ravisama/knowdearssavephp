@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -312,15 +311,26 @@ table.greyGridTable tfoot td {
   font-size: 14px;
 }</style>
     </head><body>
-    <div class="top">My Favourites?</div>
+<div class="top">My Favourites?</div>
 <div class="ques">
-    <h1>Ravi Sama Now Select Your Favourites and then Share it!</h1>
-    <form method="post" action="/save">
-        <input type="hidden" value="Ravi Sama" name="name"/>
-        <input type="submit" class="btn2" value="Select Here!"/>
-    </form>
-    </div>
-    <center>
- 
+<h1>Did Your Friends Know Your Favourites</h1>
+<h3>Play a Game with your Friends</h3><br>
+<form method="post" action="/create">
+    <input class="foo" type="text" name="name" placeholder="Enter Your Name Here"/><br>
+<span id="name_error" style="color:red;">Please Enter the Name</span><br>    <input type="submit" class="btn2" value="Play"/>
+</form>
+<a href="http://instafun.pw">Try Our New Quiz <font color="red">(New)</font></a>
+</div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107293421-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107293421-2');
+</script>
+
 </body>
 </html>
