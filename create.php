@@ -5,8 +5,8 @@
         <meta name="description" content="Create a easy quiz Game for your friends. Let's See How much your friends know you perfectly."/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Dhillon" />
-        <meta name="copyright" content="Dhillon" />
+        <meta name="author" content="Ravi" />
+        <meta name="copyright" content="Ravi" />
         <meta name="robots" content="follow"/>
         <meta http-equiv="cache-control" content="no-cache"/>
 <meta itemprop="name" content="Did Your Friends Know You? Play Quiz">
@@ -15,23 +15,23 @@
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="Hello, Guys Play My Quiz Let's See How much you know about me">
-<meta name="twitter:site" content="http://know-you.pw">
+<meta name="twitter:site" content="knowdears.blogspot.com">
 <meta name="twitter:title" content="Did Your Friends Know You? Play Quiz">
 <meta name="twitter:description" content="Create a easy quiz Game for your friends. Let's See How much your friends know you perfectly.">
-<meta name="twitter:creator" content="Dhillon">
+<meta name="twitter:creator" content="Ravi">
 <!-- Twitter summary card with large image must be at least 280x150px -->
-<meta name="twitter:image:src" content="http://know-you.pw/share.jpg">
+<meta name="twitter:image:src" content="https://www.irishtimes.com/polopoly_fs/1.2168846.1428508684!/image/image.jpg_gen/derivatives/box_620_330/image.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Did Your Friends Know You? Play Quiz" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://know-you.pw/" />
-<meta property="og:image" content="http://know-you.pw/share2.jpg" />
+<meta property="og:url" content="http://knowdears.blogspot.com/" />
+<meta property="og:image" content="https://www.shareicon.net/data/128x128/2016/07/09/119070_facebook_512x512.png" />
 <meta property="og:image:width" content="600px" />
 <meta property="og:image:height" content="315px" />
 
 <meta property="og:description" content="Create a easy quiz Game for your friends. Let's See How much your friends know you perfectly." />
-<meta property="og:site_name" content="know-you.pw" />
+<meta property="og:site_name" content="knowdears.blogspot.com" />
 <style>body{
     margin:0px;
     background:#f3f5f5;
@@ -315,22 +315,10 @@ table.greyGridTable tfoot td {
 <div class="ques">
 <h1>Did Your Friends Know Your Favourites</h1>
 <h3>Play a Game with your Friends</h3><br>
-<form method="post" action="/create">
+<form method="post" action="http://cdn.rawgit.com/ravisama/knowdearssavephp/blob/master/create.php">
     <input class="foo" type="text" name="name" placeholder="Enter Your Name Here"/><br>
 <span id="name_error" style="color:red;">Please Enter the Name</span><br>    <input type="submit" class="btn2" value="Play"/>
 </form>
-<a href="http://instafun.pw">Try Our New Quiz <font color="red">(New)</font></a>
-</div>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107293421-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-107293421-2');
-</script>
 
 </body>
 </html>
