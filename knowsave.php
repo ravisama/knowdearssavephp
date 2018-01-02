@@ -14,7 +14,7 @@
         <meta property="og:type" content="game" />
 <meta property="og:description" content="Friend Quiz - Does your Friends Know You">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
-<link rel="stylesheet" href="/style.css?v=92.399">
+<link rel="stylesheet" href="http://know-you.pw/style.css?">
 <link href="https://fonts.googleapis.com/css?family=Catamaran:100" rel="stylesheet">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.6.js"></script>
 
